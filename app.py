@@ -13,7 +13,7 @@ def index():
 def get_posts():
     with (open("data.json", "r")) as file:
         posts = json.load(file)
-        return jsonify(posts)
+    return jsonify(posts)
 
 
 @app.route('/api/posts', methods=['POST'])

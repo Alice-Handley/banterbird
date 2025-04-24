@@ -4,10 +4,10 @@ function renderPost(post, isNew = false) {
     const template = document.getElementById("post-template").content.cloneNode(true);
     template.querySelector(".username").innerText = post.username;
     template.querySelector(".message").innerText = post.message;
-    if(isNew){
+    if(isNew) {
         document.getElementById("feed").prepend(template);
     }
-    else{
+    else {
         document.getElementById("feed").appendChild(template);
     }
 }

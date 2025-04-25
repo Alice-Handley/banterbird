@@ -1,0 +1,26 @@
+/* style.css */
+head {
+    text-align: center;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #afc2df;
+    padding: 20px;
+}
+
+#feed {
+    margin-top: 30px;
+}
+
+img {
+    background: #eaeaed;
+    border: 1px solid #9799a7;
+    float: right;
+    margin: 8px 0 0 20px;
+    padding: 4px;
+    width: 100px;
+  }
